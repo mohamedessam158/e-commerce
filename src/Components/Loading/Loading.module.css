@@ -1,0 +1,21 @@
+.loader {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 7px solid #0AAD0A;
+    border-right: 7px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin-top: 100px;
+  
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
